@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rana University</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/uni 2.png" , width="200px">
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a> </li>
+                        <li><a href="">ABOUT</a> </li>
+                        <li><a href="">COURSE</a> </li>
+                        <li><a href="">BLOG</a> </li>
+                        <li><a href="">CONTACT</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggist University</h1>
+            <p>MAking website is now one of the easiest thing in the world
+                you just need to learn html,css<br> javascript. and you are good to go
+            </p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos blanditiis dolores illo eum quisquam ut quidem
+            iure, natus corporis assumenda, sequi minima dolor aliquam doloremque enim facilis deserunt, eos amet.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>INTERMEDIATE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod?</p>
+            </div>
+            <div class="course-col">
+                <h3>DEGREE</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate.</p>
+            </div>
+            <div class="course-col">
+                <h3>GRADUATON</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum?</p>
+            </div>
+
+    </section>
+
+    <!------ campus ---------->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london2.avif" height="400px">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.avif" height="400px">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.avif" height="400px">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+    </section>
+
+    <!--------- Facilities ------>
+    <section class="facilities">
+        <h1>OUR FACILITIES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg" height="500px">
+                <h3>LIBRARY</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            </div>
+            <div class="facilities-col">
+                <img src="images/swimming pool.jpg" height="500">
+                <h3>SWIMMING POOL</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            </div>
+            <div class="facilities-col">
+                <img src="images/index.jpg" height="500">
+                <h3>BASKETBALL</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            </div>
+        </div>
+    </section>
+    <!------ testimonials ------>
+
+    <section class="testimonials">
+        <h1>WHAT OUR STUDENT SAYS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/teacher.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>HAMZA</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/TEACHER2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>SARA</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star--o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----Call To Action ------>
+
+    <section class="cta">
+        <H1>Enroll For Our Various Online Courses<br>Anywhere From The World</H1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-----Footer ------>
+
+    <section class="footer">
+        <H4>ABOUT US</H4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam <br>deleniti non aut autem, ratione quia
+            dolores officiis magnam nostrum eius?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twiiter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
